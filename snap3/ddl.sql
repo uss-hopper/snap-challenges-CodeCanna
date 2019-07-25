@@ -13,3 +13,6 @@ CREATE TABLE snap3(
 	 taskDescription VARCHAR(256) NULL,
 	 PRIMARY KEY (taskId)
 );
+
+SELECT tweet.tweetContent, profile.profileAtHandle FROM tweet INNER JOIN `like` ON tweet.tweetId = like.likeTweetId
+INNER JOIN profile ON like.likeProfileId = profile.profileId;

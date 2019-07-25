@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Snap Challenge 6</title>
+		<style>
+			body {
+				background-color: gray;
+			}
+
+			header {
+				color: white;
+			}
+
+			h2 {
+				color: white;
+			}
+
+			div.branch-list {
+				background-color: lightgray;
+				padding: 10px;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+			}
+
+			div.branch-des {
+				background-color: lightgray;
+				padding: 10px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+				-webkit-border-radius: 10px;
+				-moz-border-radius: 10px;
+				border-radius: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Github Branching</h1>
+		</header>
+		<div class="branch-list">
+			<h3>Branches</h3>
+			<ul>
+				<li>Master</li>
+				<li>Develop</li>
+				<li>Feature</li>
+				<li>Release</li>
+				<li>Hotfix</li>
+			</ul>
+		</div>
+		<h2>Branch Discriptions:</h2>
+		<div class="branch-des">
+			<h3>Master</h3>
+			<p>
+				The master branch is where all of the main changes get pushed to for a release.
+				This is where the main release of a project lives.
+			</p>
+		</div>
+
+		<div class="branch-des">
+			<h3>Develop</h3>
+			<p>
+				This is the branch that all the feature branches push to, it holds a somewhat stable version of the project.
+			</p>
+		</div>
+
+		<div class="branch-des">
+			<h3>Feature</h3>
+			<p>
+				Feature branches is where most of the work is done by developers and is pushed to develop.
+			</p>
+		</div>
+
+		<div class="branch-des">
+			<h3>Release</h3>
+			<p>
+				This branch is where the actual release of the project lives, and is forked from develop.
+			</p>
+		</div>
+
+		<div class="branch-des">
+			<h3>Hotfix</h3>
+			<p>
+				The hotfix branch is where small patches can be worked on, and usually stem directly from the master branch.
+			</p>
+		</div>
+	</body>
+</html>
